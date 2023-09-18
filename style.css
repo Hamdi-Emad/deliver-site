@@ -1,0 +1,2488 @@
+*{
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    
+}
+/* Start NavBar */
+header{
+    width: 100%;
+    background-image: url("attachment/blue_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 890px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 110px;
+    padding-right: 130px;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.lefthead {
+    display: flex;
+    align-items: center;
+    
+    
+}
+.lefthead a{
+    font-size: larger;
+    font-weight: 500;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+
+
+}
+.logoheader{
+    width: 185px;
+    align-items: center;
+    
+    
+}
+.botton button{
+    border: none;
+    font-size: larger;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+}
+.botton a{
+    text-decoration: none;
+    color: black;
+}
+/* Enad NavBar */
+.secofnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.scleft h1 span{
+    color: rgb(122, 38, 201);
+}
+.scleft h1{
+    font-size: 60px;
+    color: rgb(99, 99, 99);
+}
+.scleft p{
+    position: absolute;
+    top: 460px;  
+    font-size: 32px;
+    font-weight: 250;
+    
+}
+.scleft{
+    padding-left: 162px;
+    padding-top: 40px;
+}
+.img1{
+    position: absolute;
+    width: 820px;
+    top: 140px;
+    left: 840px;
+}
+.img2{
+    position: absolute;
+    width: 350px;
+    top: 170px;
+    right: 12px; 
+    left: 1040px;
+}
+.img3{
+    position: absolute;
+    width: 400px;
+    top: 620px;
+    left: 1000px;
+}
+
+.img4{
+    position: absolute;
+    width: 1500px;
+    top: 730px;
+    right: 450px;
+}
+section .line-sec .line img{
+    position: absolute;
+    left: 350px;
+    top: 1000px;
+    width: 1000px;
+}
+.line1 img{
+    position: absolute;
+    width: 200px;
+    left: 229px;
+    top: 1080px;
+    width: 220px;
+}
+.line1 h2{
+    position: absolute;
+    left: 253px;
+    top: 1243px;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.line1 p{
+    position: absolute;
+    left: 175px;
+    top: 1276px;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+}
+.line2 img{
+    position: absolute;
+    width: 200px;
+    left: 695px;
+    top: 1204px;
+    width: 230px;
+}
+.line2 h2{
+    position: absolute;
+    left: 735px;
+    top: 1377px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.line2 p{
+    position: absolute;
+    left: 630px;
+    top: 1409px;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+}
+.line3 img{
+    position: absolute;
+    width: 200px;
+    left: 1070px;
+    top: 1495px;
+    width: 290px;
+}
+.line3 h2{
+    position: absolute;
+    left: 1162px;
+    top: 1665px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.line3 p{
+    position: absolute;
+    left: 1023px;
+    top: 1702px;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+}
+.why-cod img{
+    position: absolute;
+    left: 168px;
+    top: 1500px;
+    width: 410px;
+    
+}
+.why-cod p{
+    position: absolute;
+    left:265px;
+    top: 1590px;
+    width: 350px;
+    color: white;
+    font-size: 22px;
+    font-weight: 900px;
+    
+}
+.why-cod span{
+    font-size: 64px;
+    font-weight: 400;
+}
+.underline-sec{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 1900px;  
+}
+.lef-undersec{
+    margin-left: 270px;
+    margin-top: 270px;
+}
+.lef-undersec img{
+    width: 230px;
+}
+.right-undersec {
+    margin-left: 700px;
+    margin-top: 299px;
+}
+.right-undersec img{
+    width: 239px;
+}
+.center-undersec {
+    position: absolute;
+    top: 100px;
+    left: 535px;
+}
+.center-undersec h2{
+    position: absolute;
+    left: 200px;
+    top: 460px;
+}
+.center-undersec p{
+    position: absolute;
+    left: 182px;
+    top: 510px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.icon i{
+    position: absolute;
+    top: 500px;
+    right: 280px;
+    font-size: 22px;
+    background-color:rgba(235, 235, 235, 0.445) ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2 i{
+    position: absolute;
+    top: 500px;
+    right: 830px;
+    font-size: 22px;
+    background-color: rgba(235, 235, 235, 0.445);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bac0{
+    position: absolute;
+    top: 2630px;
+    height: 700px;
+    width: 1663px;
+}
+
+.sora{
+    position: absolute;
+    top: 2777px;
+    width: 830px;
+    left: 725px;
+}
+.kud-left{
+    position: absolute;
+    top: 3100px;
+    left: 150px;
+}
+.kudright{
+    position: absolute;
+    top: 3100px;
+    left: 370px;
+}
+.circle1{
+    background-color: white;
+    width: 170px;
+    height: 55px;
+    border-radius: 10px;
+}
+.circle2{
+    background-color: white;
+    width: 170px;
+    height: 55px;
+    border-radius: 10px;
+}
+.parakud1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: 16px;
+    bottom: -6px;
+    left: 245px;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+    font-weight: 600;
+}
+.span1{
+    font-size: 20px;
+    font-weight: 800;
+}
+.parakud2{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: 16px;
+    bottom: -6px;
+    left: -190px;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+    font-weight: 600;
+}
+.span2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.apple{
+    width: 35px;
+    position: absolute;
+    top: 3105px;
+    left: 163px;
+    z-index: 10;
+}
+.play{
+    width: 35px;
+    position: absolute;
+    top: 3108px;
+    left: 385px;
+    z-index: 10;
+}
+
+.insta{
+    width: 38px;
+    position: absolute;
+    top: 3200px;
+    left: 150px;
+    z-index: 10;
+    transition: all .5 ease;
+}
+
+.insta:hover{
+        background-image:linear-gradient( to top right, #feda75, #fa7e1e,#d62976,#962fbf,#4f5bd5);
+        background-size: 34.6px 34.3px ;
+        background-repeat: no-repeat;
+        border-radius:12px 12px 12px 12px ;
+    
+}
+.whatsapp{
+    font-size: 38px;
+    position: absolute;
+    top: 3200px;
+    left: 210px;
+    z-index: 300;
+}
+
+
+.whatsapp:hover{
+background-color: rgb(18, 182, 18);
+border-radius: 50% 50% 50% 0%;
+}
+
+.facebook{
+    width: 22px;
+    position: absolute;
+    top: 3200px;
+    left: 269px;
+    z-index: 10;
+}
+.facebook:hover{
+    filter: brightness(0) saturate(100%) invert(30%) sepia(42%) saturate(7485%) hue-rotate(214deg) brightness(98%) contrast(95%);
+}
+
+ul{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 60px;
+    top: 3250px;
+    left: 109px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+/*         Responsive Mobiles       640px media  */
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) and (max-width:768px){
+    *{
+        font-family: 'Dosis', sans-serif;
+    }
+    body{
+        margin: 0;
+        padding: 0;  
+        box-sizing: border-box;
+    }
+    /* Start NavBar */
+    header{
+        width: 100%;
+        background-image: url("attachment/blue_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 410px;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 130px;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    .lefthead {
+        display: flex;
+        align-items: center;
+        
+    }
+    .lefthead a{
+        font-size: 16px;
+        font-weight: 400;
+        padding-right: 20px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        
+        
+    
+    
+    }
+    .logoheader{
+        width: 120px;
+        align-items: center;
+        /* position: absolute;
+        left:  */
+        padding-left: 20px
+        
+        
+    }
+    .botton{
+        position: absolute;
+        left: 520px;
+    }
+    .botton button{
+        width: 70px;
+        font-size: 14px;
+        height: 30px;
+    }
+
+    .scleft h1{
+        position: absolute;
+        top: 220px;  
+        left: 59px;
+        font-size: 24px;
+    }
+
+    .scleft p{
+        position: absolute;
+        top: 260px;
+        left: 59px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .img1{
+        position: absolute;
+        width: 300px;
+        top: 150px;
+        left: 337px;
+    }
+    .img2{
+        position: absolute;
+        width: 120px;
+        top: 170px; 
+        left: 409px;
+    }
+    .img3{
+        position: absolute;
+        width: 170px;
+        top: 330px;
+        left: 385px;
+    }
+    
+    .img4{
+        rotate: -1deg;
+        position: absolute;
+        width: 670px;
+        top: 360px;
+        right: 160px;
+    }
+    section .line-sec .line img{
+        position: absolute;
+        left: 120px;
+        top: 450px;
+        width:450px;
+        height: 330px;
+    }
+    .line1 img{
+        position: absolute;
+        width: 200px;
+        left: 70px;
+        top: 495px;
+        width: 115px;
+    }
+    .line1 h2{
+        position: absolute;
+        left: 70px;
+        top: 575px;
+        font-size: 16px;
+        font-weight: 600;
+        
+    }
+    .line1 p{
+        position: absolute;
+        left: 30px;
+        top: 600px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .line2 img{
+        position: absolute;
+        width: 200px;
+        left: 285px;
+        top: 598px;
+        width: 115px;
+    }
+    .line2 h2{
+        position: absolute;
+        left: 285px;
+        top: 675px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .line2 p{
+        position: absolute;
+        left: 230px;
+        top: 700px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .line3 img{
+        position: absolute;
+        width: 200px;
+        left: 410px;
+        top: 772px;
+        width: 125px;
+    }
+    .line3 h2{
+        position: absolute;
+        left: 440px;
+        top: 835px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .line3 p{
+        position: absolute;
+        left: 355px;
+        top: 863px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .why-cod{
+        position: absolute;
+        top: 30px;
+    }
+    .why-cod img{
+        position: absolute;
+        left: 50px;
+        top: 710px;
+        width: 170px;
+        
+    }
+    .why-cod p{
+        position: absolute;
+        left:90px;
+        top: 740px;
+        width: 350px;
+        color: white;
+        font-size: 12px;
+        font-weight: 600px;
+    }
+    .why-cod span{
+        font-size: 26px;
+        font-weight: 400;
+    }
+    .underline-sec{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 870px;  
+        
+    }
+    .lef-undersec{
+        margin-left: 38px;
+        margin-top: 270px;
+    }
+    .lef-undersec img{
+        width: 100px;
+    }
+    .right-undersec {
+        margin-left: 350px;
+        margin-top: 285px;
+    }
+    .right-undersec img{
+        width: 110px;
+    }
+    .center-undersec {
+        position: absolute;
+        top: 190px;
+        left: 170px;
+    }
+    .center-undersec img{
+        width: 260px;
+    }
+    .center-undersec h2{
+        position: absolute;
+        left: 65px;
+        top: 210px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .center-undersec p{
+        position: absolute;
+        left: 65px;
+        top: 242px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .icon i{
+        position: absolute;
+        top: 360px;
+        right: 130px;
+        font-size: 14px;
+        background-color:rgba(235, 235, 235, 0.445) ;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon2 i{
+        position: absolute;
+        top: 360px;
+        right: 400px;
+        font-size: 14px;
+        background-color: rgba(235, 235, 235, 0.445);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bac0{
+        position: absolute;
+        top: 1400px;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .sora{
+        position: absolute;
+        top: 1473px;
+        width: 340px;
+        left: 275px;
+    }
+    .kud-left{
+        position: absolute;
+        top: 1598px;
+        left:159px ;
+    }
+    .kud-left img{
+        width: 80px;
+        height: 40px;
+    }
+    .kud-left p{
+        position: absolute;
+        left: 10px;
+        font-size: 9px;
+        top: -4px;
+        
+    }
+    .kud-left span{
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .kudright{
+        position: absolute;
+        top: 1598px;
+        left: 60px;
+    }
+    .kudright img{
+        width: 80px;
+        height: 40px;
+    }
+    .kudright p{
+        position: absolute;
+        left: 10px;
+        font-size: 9px;
+        top: -4px;
+        
+    }
+    .kudright span{
+        font-size: 12px;
+        font-weight: 900;
+    }
+    .play{
+        width: 18px;
+        position: absolute;
+        top: 1608px;
+        left: 163px;
+        z-index: 10;
+    }
+    .apple{
+        align-items: center;
+        width: 18px;
+        position: absolute;
+        top: 1606px;
+        left: 63px;
+        z-index: 10;
+    }
+    .insta{
+        width: 16px;
+        position: absolute;
+        top: 1645px;
+        left: 59px;
+        z-index: 10;
+    }
+    .whatsapp{
+        width: 16px;
+        position: absolute;
+        top: 1645px;
+        left: 94px;
+        z-index: 10;
+    }
+    .facebook{
+        width: 10px;
+        position: absolute;
+        top: 1643px;
+        left: 130px;
+        z-index: 10;
+    }
+    
+    ul{
+        position: absolute;
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 10px;
+        top: 1655px;
+        left: 18px;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        z-index: 112;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 768 media */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( min-width: 769px) and (max-width:900px){
+    *{
+        font-family: 'Dosis', sans-serif;
+    }
+    body{
+        margin: 0;
+        padding: 0;  
+        box-sizing: border-box;
+    }
+    /* Start NavBar */
+    header{
+        width: 100%;
+        background-image: url("attachment/blue_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 130px;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    .lefthead {
+        display: flex;
+        align-items: center;
+        
+    }
+    .lefthead a{
+        font-size: 16px;
+        font-weight: 400;
+        padding-right: 20px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        
+        
+    
+    
+    }
+    .logoheader{
+        width: 130px;
+        align-items: center;
+        /* position: absolute;
+        left:  */
+        padding-left: 20px
+        
+        
+    }
+    .botton{
+        position: absolute;
+        left: 650px;
+    }
+    .botton button{
+        width: 70px;
+        font-size: 14px;
+        height: 30px;
+    }
+
+    .scleft h1{
+        position: absolute;
+        top: 240px;  
+        left: 59px;
+        font-size: 30px;
+    }
+
+    .scleft p{
+        position: absolute;
+        top: 295px;
+        left: 59px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .img1{
+        position: absolute;
+        width: 370px;
+        top: 185px;
+        left: 390px;
+    }
+    .img2{
+        position: absolute;
+        width: 150px;
+        top: 210px; 
+        left: 475px;
+    }
+    .img3{
+        position: absolute;
+        width: 180px;
+        top: 415px;
+        left: 455px;
+    }
+    
+    .img4{
+        rotate: -1deg;
+        position: absolute;
+        width: 700px;
+        top: 453px;
+        right: 210px;
+    }
+    section .line-sec .line img{
+        position: absolute;
+        left: 150px;
+        top: 550px;
+        width:540px;
+        height: 450px;
+    }
+    .line1 img{
+        position: absolute;
+        width: 200px;
+        left: 95px;
+        top: 615px;
+        width: 120px;
+    }
+    .line1 h2{
+        position: absolute;
+        left: 85px;
+        top: 705px;
+        font-size: 17px;
+        font-weight: 600;
+        
+    }
+    .line1 p{
+        position: absolute;
+        left: 38px;
+        top: 735px;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .line2 img{
+        position: absolute;
+        width: 200px;
+        left: 348px;
+        top: 752px;
+        width: 140px;
+    }
+    .line2 h2{
+        position: absolute;
+        left: 350px;
+        top: 850px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .line2 p{
+        position: absolute;
+        left: 290px;
+        top: 880px;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .line3 img{
+        position: absolute;
+        left: 515px;
+        top: 995px;
+        width: 150px;
+    }
+    .line3 h2{
+        position: absolute;
+        left: 555px;
+        top: 1080px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .line3 p{
+        position: absolute;
+        left: 450px;
+        top: 1115px;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .why-cod{
+        position: absolute;
+        top: 300px;
+    }
+    .why-cod img{
+        position: absolute;
+        left: 50px;
+        top: 680px;
+        width: 200px;
+        
+    }
+    .why-cod p{
+        position: absolute;
+        left:97px;
+        top: 710px;
+        width: 350px;
+        color: white;
+        font-size: 14px;
+        font-weight: 600px;
+    }
+    .why-cod span{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .underline-sec{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 1100px;   
+        
+    }
+    .lef-undersec{
+        margin-left: 60px;
+        margin-top: 270px;
+    }
+    .lef-undersec img{
+        width: 120px;
+    }
+    .right-undersec {
+        margin-left:400px;
+        margin-top: 290px;
+    }
+    .right-undersec img{
+        width: 130px;
+    }
+    .center-undersec {
+        position: absolute;
+        top: 190px;
+        left: 210px;
+    }
+    .center-undersec img{
+        width: 295px;
+    }
+    .center-undersec h2{
+        position: absolute;
+        left: 75px;
+        top: 230px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .center-undersec p{
+        position: absolute;
+        left: 70px;
+        top: 260px;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .icon i{
+        position: absolute;
+        top: 390px;
+        right: 150px;
+        font-size: 15px;
+        background-color:rgba(235, 235, 235, 0.445) ;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon2 i{
+        position: absolute;
+        top: 390px;
+        right: 470px;
+        font-size: 15px;
+        background-color: rgba(235, 235, 235, 0.445);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bac0{
+        position: absolute;
+        top: 1700px;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .sora{
+        position: absolute;
+        top: 1757px;
+        width: 365px;
+        left: 350px;
+    }
+    .kud-left{
+        position: absolute;
+        top: 1897px;
+        left:180px ;
+    }
+    .kud-left img{
+        width: 110px;
+        height: 38px;
+    }
+    .kud-left p{
+        position: absolute;
+        left: 10px;
+        font-size: 9px;
+        top: -4px;
+        
+    }
+    .kud-left span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .kudright{
+        position: absolute;
+        top: 1897px;
+        left: 60px;
+    }
+    .kudright img{
+        width: 110px;
+        height: 38px;
+    }
+    .kudright p{
+        position: absolute;
+        left: 12px;
+        font-size: 9px;
+        top: -4px;
+        
+    }
+    .kudright span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .play{
+        width: 21px;
+        position: absolute;
+        top: 1904px;
+        left: 187px;
+        z-index: 10;
+    }
+    .apple{
+        align-items: center;
+        width: 21px;
+        position: absolute;
+        top: 1902px;
+        left: 68px;
+        z-index: 10;
+    }
+    .insta{
+        width: 16px;
+        position: absolute;
+        top: 1942px;
+        left: 59px;
+        z-index: 10;
+    }
+    .whatsapp{
+        width: 16px;
+        position: absolute;
+        top: 1942px;
+        left: 94px;
+        z-index: 10;
+    }
+    .facebook{
+        width: 10px;
+        position: absolute;
+        top: 1942px;
+        left: 130px;
+        z-index: 10;
+    }
+    
+    ul{
+        position: absolute;
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 15px;
+        top: 1950px;
+        left: 18px;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        z-index: 112;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 900px media  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:901px) and (max-width:1024px){
+    *{
+        font-family: 'Dosis', sans-serif;
+    }
+    body{
+        margin: 0;
+        padding: 0;  
+        box-sizing: border-box;
+    }
+    /* Start NavBar */
+    header{
+        width: 100%;
+        background-image: url("attachment/blue_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 550px;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 0px;
+        padding-right: 130px;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    .lefthead {
+        display: flex;
+        align-items: center;
+        
+    }
+    .lefthead a{
+        font-size: 18px;
+        font-weight: 400;
+        padding-right: 20px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        
+        
+    
+    
+    }
+    .logoheader{
+        width: 138px;
+        align-items: center;
+        /* position: absolute;
+        left:  */
+        padding-left: 20px
+        
+        
+    }
+    .botton{
+        position: absolute;
+        left: 750px;
+    }
+    .botton button{
+        width: 85px;
+        font-size: 16px;
+        height: 31px;
+    }
+
+    .scleft h1{
+        position: absolute;
+        top: 270px;  
+        left: 59px;
+        font-size: 40px;
+    }
+
+    .scleft p{
+        position: absolute;
+        top: 340px;
+        left: 59px;
+        font-size: 23px;
+        font-weight: 300;
+    }
+    .img1{
+        position: absolute;
+        width: 410px;
+        top: 185px;
+        left: 480px;
+    }
+    .img2{
+        position: absolute;
+        width: 170px;
+        top: 220px; 
+        left: 575px;
+    }
+    .img3{
+        position: absolute;
+        width: 200px;
+        top: 440px;
+        left: 553px;
+    }
+    
+    .img4{
+        rotate: -1deg;
+        position: absolute;
+        width: 1000px;
+        top: 470px;
+        right: 220px;
+    }
+    section .line-sec .line img{
+        position: absolute;
+        left: 140px;
+        top: 600px;
+        width:650px;
+        height: 450px;
+    }
+    .line1 img{
+        position: absolute;
+        width:130px;
+        left: 90px;
+        top: 665px;
+    }
+    .line1 h2{
+        position: absolute;
+        left: 87px;
+        top: 757px;
+        font-size: 17px;
+        font-weight: 600;
+        
+    }
+    .line1 p{
+        position: absolute;
+        left: 35px;
+        top: 786px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .line2 img{
+        position: absolute;
+        width: 140px;
+        left: 380px;
+        top: 800px;
+
+    }
+    .line2 h2{
+        position: absolute;
+        left: 390px;
+        top: 900px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .line2 p{
+        position: absolute;
+        left: 315px;
+        top: 927px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .line3 img{
+        position: absolute;
+        left: 585px;
+        top: 1040px;
+        width: 180px;
+    }
+    .line3 h2{
+        position: absolute;
+        left: 645px;
+        top: 1137px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .line3 p{
+        position: absolute;
+        left: 550px;
+        top: 1166px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .why-cod{
+        position: absolute;
+        top: 40px;
+    }
+    .why-cod img{
+        position: absolute;
+        left: 60px;
+        top: 970px;
+        width: 260px;
+        
+    }
+    .why-cod p{
+        position: absolute;
+        left:116px;
+        top: 1025px;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 600px;
+    }
+    .why-cod span{
+        font-size: 42px;
+        font-weight: 500;
+    }
+    .underline-sec{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 920px;  
+        
+    }
+    .lef-undersec{
+        margin-left: 45px;
+        margin-top: 520px;
+    }
+    .lef-undersec img{
+        width: 135px;
+    }
+    .right-undersec {
+        margin-left: 510px;
+        margin-top: 530px;
+    }
+    .right-undersec img{
+        width: 145px;
+    }
+    .center-undersec {
+        position: absolute;
+        top:450px;
+        left: 270px;
+    }
+    .center-undersec img{
+        width: 300px;
+    }
+    .center-undersec h2{
+        position: absolute;
+        left: 80px;
+        top: 240px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .center-undersec p{
+        position: absolute;
+        left: 75px;
+        top: 275px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .icon i{
+        position: absolute;
+        top: 650px;
+        right: 175px;
+        font-size: 14px;
+        background-color:rgba(235, 235, 235, 0.445) ;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon2 i{
+        position: absolute;
+        top: 650px;
+        right: 570px;
+        font-size: 14px;
+        background-color: rgba(235, 235, 235, 0.445);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bac0{
+        position: absolute;
+        top: 1750px;
+        height: 370px;
+        width: 100%;
+    }
+    
+    .sora{
+        position: absolute;
+        top: 1840px;
+        width: 420px;
+        left: 415px;
+    }
+    .kud-left{
+        position: absolute;
+        top: 1995px;
+        left:180px ;
+    }
+    .kud-left img{
+        width: 110px;
+        height: 39px;
+    }
+    .kud-left p{
+        position: absolute;
+        left: 12px;
+        font-size: 9px;
+        top: -6px;
+        
+    }
+    .kud-left span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .kudright{
+        position: absolute;
+        top: 1995px;
+        left: 60px;
+    }
+    .kudright img{
+        width: 110px;
+        height: 39px;
+    }
+    .kudright p{
+        position: absolute;
+        left: 12px;
+        font-size: 9px;
+        top: -5px;
+        
+    }
+    .kudright span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .play{
+        width: 20px;
+        position: absolute;
+        top: 2003px;
+        left: 190px;
+        z-index: 10;
+    }
+    .apple{
+        align-items: center;
+        width: 19px;
+        position: absolute;
+        top: 2003px;
+        left: 68px;
+        z-index: 10;
+    }
+    .insta{
+        width: 19px;
+        position: absolute;
+        top: 2045px;
+        left: 61px;
+        z-index: 10;
+    }
+    .whatsapp{
+        width: 19px;
+        position: absolute;
+        top: 2045px;
+        left: 100px;
+        z-index: 10;
+    }
+    .facebook{
+        width: 13px;
+        position: absolute;
+        top: 2043px;
+        left: 140px;
+        z-index: 10;
+    }
+    
+    ul{
+        position: absolute;
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 25px;
+        top: 2060px;
+        left: 18px;
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+        z-index: 112;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1024px media */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+
+    *{
+        font-family: 'Dosis', sans-serif;
+    }
+    body{
+        margin: 0;
+        padding: 0;  
+        box-sizing: border-box;
+    }
+    /* Start NavBar */
+    header{
+        width: 100%;
+        background-image: url("attachment/blue_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 650px;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top:50px;
+        padding-left: 0px;
+        padding-right: 130px;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    .lefthead {
+        display: flex;
+        align-items: center;
+        
+    }
+    .lefthead a{
+        font-size: 18px;
+        font-weight: 400;
+        padding-right: 40px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        
+        
+    
+    
+    }
+    .logoheader{
+        width: 150px;
+        align-items: center;
+        /* position: absolute;
+        left:  */
+        padding-left: 20px
+        
+        
+    }
+    .botton{
+        position: absolute;
+        left: 870px;
+    }
+    .botton button{
+        width: 90px;
+        font-size: 16px;
+        height: 31px;
+    }
+
+    .scleft h1{
+        position: absolute;
+        top: 310px;  
+        left: 59px;
+        font-size: 42px;
+    }
+
+    .scleft p{
+        position: absolute;
+        top: 390px;
+        left: 59px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    .img1{
+        position: absolute;
+        width: 500px;
+        top: 220px;
+        left: 520px;
+    }
+    .img2{
+        position: absolute;
+        width: 190px;
+        top: 260px; 
+        left: 653px;
+    }
+    .img3{
+        position: absolute;
+        width: 260px;
+        top: 515px;
+        left: 617px;
+    }
+    
+    .img4{
+        rotate: -1deg;
+        position: absolute;
+        width: 1120px;
+        top: 570px;
+        right: 260px;
+    }
+    section .line-sec .line img{
+        position: absolute;
+        left: 190px;
+        top: 730px;
+        width:700px;
+        height: 550px;
+    }
+    .line1 img{
+        position: absolute;
+        width:170px;
+        left: 110px;
+        top: 810px;
+    }
+    .line1 h2{
+        position: absolute;
+        left: 120px;
+        top: 930px;
+        font-size: 18px;
+        font-weight: 600;
+        
+    }
+    .line1 p{
+        position: absolute;
+        left: 63px;
+        top: 960px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .line2 img{
+        position: absolute;
+        width: 190px;
+        left: 430px;
+        top: 950px;
+
+    }
+    .line2 h2{
+        position: absolute;
+        left: 455px;
+        top: 1085px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .line2 p{
+        position: absolute;
+        left: 385px;
+        top: 1113px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .line3 img{
+        position: absolute;
+        left: 640px;
+        top: 1270px;
+        width: 220px;
+    }
+    .line3 h2{
+        position: absolute;
+        left: 720px;
+        top: 1390px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .line3 p{
+        position: absolute;
+        left: 610px;
+        top: 1420px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .why-cod{
+        position: absolute;
+        top: 230px;
+    }
+    .why-cod img{
+        position: absolute;
+        left: 60px;
+        top: 970px;
+        width: 290px;
+        
+    }
+    .why-cod{
+        position: absolute;
+        top: 240px;
+    }
+    .why-cod p{
+        position: absolute;
+        left:118px;
+        top: 1025px;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-weight: 600px;
+    }
+    .why-cod span{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .underline-sec{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 1230px;  
+        
+    }
+    .lef-undersec{
+        margin-left: 45px;
+        margin-top: 505px;
+    }
+    .lef-undersec img{
+        width: 155px;
+    }
+    .right-undersec {
+        margin-left: 610px;
+        margin-top: 525px;
+    }
+    .right-undersec img{
+        width: 165px;
+    }
+    .center-undersec {
+        position: absolute;
+        top:410px;
+        left: 315px;
+    }
+    .center-undersec img{
+        width: 350px;
+    }
+    .center-undersec h2{
+        position: absolute;
+        left: 110px;
+        top: 285px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .center-undersec p{
+        position: absolute;
+        left: 105px;
+        top: 325px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .icon i{
+        position: absolute;
+        top: 650px;
+        right: 200px;
+        font-size: 15px;
+        background-color:rgba(235, 235, 235, 0.445) ;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon2 i{
+        position: absolute;
+        top: 650px;
+        right: 660px;
+        font-size: 15px;
+        background-color: rgba(235, 235, 235, 0.445);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bac0{
+        position: absolute;
+        top: 2100px;
+        height: 370px;
+        width: 100%;
+    }
+    
+    .sora{
+        position: absolute;
+        top: 2160px;
+        width: 465px;
+        left: 475px;
+    }
+    .kud-left{
+        position: absolute;
+        top: 2340px;
+        left:180px ;
+    }
+    .kud-left img{
+        width: 110px;
+        height: 39px;
+    }
+    .kud-left p{
+        position: absolute;
+        left: 12px;
+        font-size: 9px;
+        top: -6px;
+        
+    }
+    .kud-left span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .kudright{
+        position: absolute;
+        top: 2340px;
+        left: 60px;
+    }
+    .kudright img{
+        width: 110px;
+        height: 39px;
+    }
+    .kudright p{
+        position: absolute;
+        left: 12px;
+        font-size: 9px;
+        top: -5px;
+        
+    }
+    .kudright span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .play{
+        width: 20px;
+        position: absolute;
+        top: 2348px;
+        left: 190px;
+        z-index: 10;
+    }
+    .apple{
+        align-items: center;
+        width: 19px;
+        position: absolute;
+        top: 2348px;
+        left: 68px;
+        z-index: 10;
+    }
+    .insta{
+        width: 19px;
+        position: absolute;
+        top: 2395px;
+        left: 61px;
+        z-index: 10;
+    }
+    .whatsapp{
+        width: 19px;
+        position: absolute;
+        top: 2395px;
+        left: 100px;
+        z-index: 10;
+    }
+    .facebook{
+        width: 13px;
+        position: absolute;
+        top: 2393px;
+        left: 140px;
+        z-index: 10;
+    }
+    
+    ul{
+        position: absolute;
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 25px;
+        top: 2410px;
+        left: 18px;
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+        z-index: 112;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1200px media  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1201px) and (max-width:1650px){
+    *{
+        font-family: 'Dosis', sans-serif;
+    }
+    body{
+        margin: 0;
+        padding: 0;  
+        box-sizing: border-box;
+    }
+    /* Start NavBar */
+    header{
+        width: 100%;
+        background-image: url("attachment/blue_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 900px;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top:65px;
+        padding-left: 0px;
+        padding-right: 130px;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    .lefthead {
+        display: flex;
+        align-items: center;
+        
+    }
+    .lefthead a{
+        font-size: 20px;
+        font-weight: 400;
+        padding-right: 40px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        
+        
+    
+    
+    }
+    .logoheader{
+        width: 170px;
+        align-items: center;
+        /* position: absolute;
+        left:  */
+        padding-left: 20px
+        
+        
+    }
+    .botton{
+        position: absolute;
+        left: 1000px;
+    }
+    .botton button{
+        width: 100px;
+        font-size: 18px;
+        height: 32px;
+    }
+
+    .scleft h1{
+        position: absolute;
+        top: 500px;  
+        left: 59px;
+        font-size: 50px;
+    }
+
+    .scleft p{
+        position: absolute;
+        top: 600px;
+        left: 59px;
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .img1{
+        position: absolute;
+        width: 650px;
+        top: 360px;
+        left: 550px;
+    }
+    .img2{
+        position: absolute;
+        width: 250px;
+        top: 410px; 
+        left: 720px;
+    }
+    .img3{
+        position: absolute;
+        width: 330px;
+        top: 750px;
+        left: 675px;
+    }
+    .img4{
+        rotate: -1deg;
+        position: absolute;
+        width: 1350px;
+        top: 820px;
+        right: 330px;
+    }
+    section .line-sec .line img{
+        position: absolute;
+        left: 190px;
+        top: 980px;
+        width:850px;
+        height: 650px;
+    }
+    .line1 img{
+        position: absolute;
+        width:170px;
+        left: 110px;
+        top: 1077px;
+    }
+    .line1 h2{
+        position: absolute;
+        left: 130px;
+        top: 1205px;
+        font-size: 18px;
+        font-weight: 600;
+        
+    }
+    .line1 p{
+        position: absolute;
+        left: 72px;
+        top: 1240px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    .line2 img{
+        position: absolute;
+        width: 190px;
+        left: 510px;
+        top: 1280px;
+    }
+    .line2 h2{
+        position: absolute;
+        left: 535px;
+        top: 1420px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .line2 p{
+        position: absolute;
+        left: 460px;
+        top: 1450px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .line3 img{
+        position: absolute;
+        left: 770px;
+        top: 1620px;
+        width: 220px;
+    }
+    .line3 h2{
+        position: absolute;
+        left: 840px;
+        top: 1750px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .line3 p{
+        position: absolute;
+        left: 735px;
+        top: 1785px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .why-cod{
+        position: absolute;
+        top: 230px;
+    }
+    .why-cod img{
+        position: absolute;
+        left: 60px;
+        top: 970px;
+        width: 290px;
+        
+    }
+    .why-cod{
+        position: absolute;
+        top: 590px;
+    }
+    .why-cod p{
+        position: absolute;
+        left:118px;
+        top: 1025px;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-weight: 600px;
+    }
+    .why-cod span{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .underline-sec{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 1600px;  
+        
+    }
+    .lef-undersec{
+        margin-left: 55px;
+        margin-top: 505px;
+    }
+    .lef-undersec img{
+        width: 155px;
+    }
+    .right-undersec {
+        margin-left: 780px;
+        margin-top: 525px;
+    }
+    .right-undersec img{
+        width: 165px;
+    }
+    .center-undersec {
+        position: absolute;
+        top:410px;
+        left: 415px;
+    }
+    .center-undersec img{
+        width: 350px;
+    }
+    .center-undersec h2{
+        position: absolute;
+        left: 110px;
+        top: 285px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .center-undersec p{
+        position: absolute;
+        left: 105px;
+        top: 325px;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .icon i{
+        position: absolute;
+        top: 650px;
+        right: 240px;
+        font-size: 15px;
+        background-color:rgba(235, 235, 235, 0.445) ;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon2 i{
+        position: absolute;
+        top: 650px;
+        right: 790px;
+        font-size: 15px;
+        background-color: rgba(235, 235, 235, 0.445);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bac0{
+        position: absolute;
+        top: 2450px;
+        height: 370px;
+        width: 100%;
+    }
+    
+    .sora{
+        position: absolute;
+        top: 2487px;
+        width: 500px;
+        left: 570px;
+    }
+    .kud-left{
+        position: absolute;
+        top: 2685px;
+        left:180px ;
+    }
+    .kud-left img{
+        width: 110px;
+        height: 39px;
+    }
+    .kud-left p{
+        position: absolute;
+        left: 12px;
+        font-size: 9px;
+        top: -6px;
+        
+    }
+    .kud-left span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .kudright{
+        position: absolute;
+        top: 2685px;
+        left: 60px;
+    }
+    .kudright img{
+        width: 110px;
+        height: 39px;
+    }
+    .kudright p{
+        position: absolute;
+        left: 12px;
+        font-size: 9px;
+        top: -5px;
+        
+    }
+    .kudright span{
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .play{
+        width: 20px;
+        position: absolute;
+        top: 2693px;
+        left: 190px;
+        z-index: 10;
+    }
+    .apple{
+        align-items: center;
+        width: 19px;
+        position: absolute;
+        top: 2693px;
+        left: 68px;
+        z-index: 10;
+    }
+    .insta{
+        width: 19px;
+        position: absolute;
+        top: 2740px;
+        left: 61px;
+        z-index: 10;
+    }
+    .whatsapp{
+        width: 19px;
+        position: absolute;
+        top: 2740px;
+        left: 100px;
+        z-index: 10;
+    }
+    .facebook{
+        width: 13px;
+        position: absolute;
+        top: 2738px;
+        left: 140px;
+        z-index: 10;
+    }
+    
+    ul{
+        position: absolute;
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        gap: 25px;
+        top: 2760px;
+        left: 18px;
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        z-index: 112;
+    }
+
+}
+
+
+
+
+
